@@ -29,6 +29,7 @@ WORKDIR /app
 
 # Copy required files from the local directory
 COPY package.json .
+COPY config.js .   
 COPY main.js .
 
 # Install dependencies
