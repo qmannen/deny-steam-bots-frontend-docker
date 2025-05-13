@@ -5,8 +5,8 @@ const app = express();
 const port = 3000;
 
 // Replace with your actual resource group and container group names
-const RESOURCE_GROUP = 'myResourceGroup';
-const CONTAINER_GROUP = 'myContainerGroup';
+const RESOURCE_GROUP = 'denySteamBotsDocker';
+const CONTAINER_GROUP = 'backendContainer';
 
 app.get('/logs', (req, res) => {
   const command = `az container logs --resource-group ${RESOURCE_GROUP} --name ${CONTAINER_GROUP}`;
