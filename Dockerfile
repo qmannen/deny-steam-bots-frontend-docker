@@ -38,4 +38,4 @@ RUN npm install express
 EXPOSE 3000
 
 # Start the application
-CMD [ "npm", "main" ]
+CMD [ "node", "main.js" ]
